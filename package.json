@@ -1,12 +1,27 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "MdMehediHasan",
-  "license": "ISC"
+  "author": "Md Mehedi Hasan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mdmehedihasanrifat/NodeJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mdmehedihasanrifat/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Mdmehedihasanrifat/NodeJS#readme",
+  "description": "yay you can read me",
+  "devDependencies": {},
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
 }

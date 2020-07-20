@@ -8,6 +8,6 @@ const server=http.createServer(function(req , res){
 
 })
 
-server.listen(4141,function () {
+server.listen(4141,function () { 
 console.log("server runnning");
 })
